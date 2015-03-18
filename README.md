@@ -21,7 +21,7 @@ docker buitd -t $(whoami)/postgres-ssl .
 
 ## Use
 ```
-docker run -d --name postgres -h postgres -p 5432:5432 $(whoam)/postgres-ssl
+docker run -d --name postgres -h postgres -p 5432:5432 $(whoami)/postgres-ssl
 psql -h $(boot2docker ip) -U postgres -p 5432
 ```
 
