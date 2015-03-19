@@ -1,4 +1,4 @@
-FROM postgres:9.4
+FROM postgres:9.3
 
 MAINTAINER Micah Hausler,<hausler.m@gmail.com>
 
