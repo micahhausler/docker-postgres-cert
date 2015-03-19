@@ -16,7 +16,7 @@ To build, I'm assuming you have docker installed.
 ```
 git clone git@github.com:micahhausler/docker-postgres-cert.git
 cd docker-postgres-cert/
-docker buitd -t $(whoami)/postgres-ssl .
+docker build -t $(whoami)/postgres-ssl .
 ```
 
 ## Use
